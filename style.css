@@ -14,7 +14,6 @@ header {
     border-bottom: 1px solid black;
     display: flex;
     align-items: center;
-    
 }
 
 header .logo {
@@ -29,4 +28,22 @@ header .logo {
 
 .logo {
     margin: auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: block;
+    width: 600px;
+    padding: 40px;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
 }
