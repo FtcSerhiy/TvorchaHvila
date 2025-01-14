@@ -12,8 +12,10 @@ header {
     width: 100%;
     height: 80px;
     border-bottom: 1px solid black;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
+    grid-auto-flow: column;
 }
 
 header .logo {
@@ -22,8 +24,7 @@ header .logo {
     height: 50px;
     margin: auto;
     display: flex;
-    align-items: center;
-    justify-content: left;
+    justify-content: start;
 }
 
 .logo {
@@ -46,4 +47,18 @@ main {
 h1 {
     margin: 20px;
     text-align: center;
+}
+
+.choto {
+    display: flex;
+}
+
+.networks {
+    width: 50%;
+    display: flex;
+}
+
+.networks a {
+    display: block;
+    margin-right: 20px;
 }
