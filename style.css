@@ -18,6 +18,7 @@ header {
     grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
     grid-auto-flow: column;
+    position: sticky;
 }
 
 header .logo {
@@ -38,9 +39,13 @@ header .logo {
     align-items: center;
     background-color: #D0D7D9;
     flex-wrap: wrap-reverse;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .info img {
-    border-radius: 5px;
+=======
+}
+.info img {
     border-radius: 15px;
 background: #e0e0e0;
 box-shadow:  33px 33px 66px #8b8b8b,
@@ -96,7 +101,8 @@ box-shadow:  -23px -23px 46px #cccccc,
 }
 
 section.post {
-    height: 500px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
