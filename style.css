@@ -39,15 +39,19 @@ header .logo {
     align-items: center;
     background-color: #D0D7D9;
     flex-wrap: wrap-reverse;
-    
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.info img {
+=======
 }
 .info img {
     border-radius: 15px;
 background: #e0e0e0;
 box-shadow:  33px 33px 66px #8b8b8b,
              -33px -33px 66px #ffffff;
+             margin-top: 10px;
+             margin-bottom: 10px;
 }
 
 .text {
@@ -107,7 +111,6 @@ section.post {
 section.post .post-text {
     
     padding: 20px;
-    height: 60%;
     width: 60%;
     display: block;
     border-radius: 10px;
