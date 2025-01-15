@@ -43,8 +43,20 @@ header .logo {
     padding-bottom: 10px;
 }
 .info img {
-=======
+    height: 400px;
+    width: 500px;
 }
+
+@media screen and (max-width: 600px) {
+    .info img {
+        width: 90vw;
+    }
+    section.post .post-text {
+        width: 100vw;
+        border-radius: 0;
+    }
+}
+
 .info img {
     border-radius: 15px;
 background: #e0e0e0;
@@ -109,7 +121,6 @@ section.post {
 }
 
 section.post .post-text {
-    
     padding: 20px;
     width: 60%;
     display: block;
