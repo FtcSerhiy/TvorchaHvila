@@ -1,7 +1,30 @@
+@font-face {
+	font-family: 'fixel-regular';
+	src: url('./fonts/FixelText-Regular.otf');
+}
+
+@font-face {
+	font-family: 'fixel-medium';
+	src: url('./fonts/FixelText-Medium.woff2');
+}
+
 * {
     margin: 0;
     padding: 0;
 	box-sizing: border-box;
+	font-family: 'fixel-regular';
+}
+
+h2 {
+	font-family: 'fixel-medium';
+	color: #ffffff;
+}
+
+.we-title {
+	font-size: 60px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 ul {
@@ -191,6 +214,7 @@ h1 {
     padding-top: 10px;
     font-size: 60px;
     color: #033E8C;
+	font-family: 'Volya-Regular';
 }
 
 
@@ -222,7 +246,7 @@ section.post .post-text {
     display: block;
     border-radius: 5px;
 	background: #A68B03;
-	color: #D0D7D9;
+	color: #fff;
 	margin: 8px;
 }
 h2 {font-size: 35px;}
@@ -243,7 +267,7 @@ h2 {font-size: 35px;}
 	padding: 20px;
 	text-align: center;
 	width: 250px;
-	color: #D0D7D9;
+	color: #fff;
 }
 
 .profile-img {
