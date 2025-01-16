@@ -39,18 +39,8 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.moon {
-	position: relative;
-	left: 80%;
-	top: 10px;
-}
-
-@media screen and (max-width: 508px) {
-	.section-up div:not(.title) {
-		display: none;
-	}
+	width: 50px;
+	height: 50px;
 }
 
 .title {
@@ -2041,4 +2031,22 @@ footer {
 
 .copyright {
 	margin-top: 10px;
+}
+
+@media screen and (max-width: 508px) {
+	.section-up div:not(.title) {
+		display: none;
+	}
+}
+
+@media (prefers-color-scheme: white) {
+	body {
+		background-color: #fff;
+	}
+	main {
+		background-color: #fff;
+	}
+	.title h1 {
+		color: rgb(0 0 0 / 49%);
+	}
 }
