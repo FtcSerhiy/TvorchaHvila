@@ -33,7 +33,7 @@ main {
 }
 
 .logo {
-    margin: auto;
+	margin-left: 20px;
 	border-radius: 10px;
 	border: 1px solid #D0D7D9;
 	display: flex;
@@ -43,8 +43,14 @@ main {
 
 .moon {
 	position: relative;
-	left: 90%;
+	left: 80%;
 	top: 10px;
+}
+
+@media screen and (max-width: 508px) {
+	.section-up div:not(.title) {
+		display: none;
+	}
 }
 
 .title {
