@@ -11,6 +11,7 @@
 :root {
 	--water-color: #0c80c4;
 	--post-color: #e39690;
+	--footer-wave-color: #1651cb;
 }
 
 * {
@@ -1955,7 +1956,7 @@ footer {
 	background-color: var(--water-color);
   }
   footer div {
-	background-color:#4478e3;
+	background-color:var(--footer-wave-color);
 	margin: -5px 0px 0px 0px;
 	padding:0px;
 	color: #fff;
@@ -1979,7 +1980,7 @@ footer {
   .wave {
 	animation: wave 3s linear;
 	animation-iteration-count:infinite;
-	fill: #4478e3;
+	fill: var(--footer-wave-color);
   }
   .drop {
 	fill: transparent;
@@ -2064,11 +2065,6 @@ footer {
 }
 .social-icon__link:hover {
   transform: translateY(-10px);
-}
-
-.social-icon {
-	
-	background-color: #4478e3;
 }
 
 .copyright {
