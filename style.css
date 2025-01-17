@@ -45,10 +45,12 @@ ul {
 body {
     width: 100%;
     height: 100%;
-	background-color: #030308;
-	/* overflow: hidden; */
+	background-color: #fff;
 }
 
+.title h1 {
+	color: rgb(0 0 0 / 49%);
+}
 header {
     padding: 0;
     margin: 0;
@@ -62,7 +64,7 @@ header {
     position: sticky;
 }
 main {
-	background-color: #000;
+	background-color: #fff;
 }
 
 .logo {
@@ -157,17 +159,16 @@ main {
 			transform: translate(-50%,-50%);
   }
   
-  .title h1{
+.title h1{
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
 	font-size: 4em;
-	color: rgba(255, 255, 255, 0.493);
 	background-image: url(https://image.ibb.co/ciSeac/image.png);
 	background-repeat: repeat-x;
 	-webkit-background-clip: text;
 	animation: animate 15s linear infinite;
-  }
+}
 
 .title span {
 	text-align: right;
@@ -178,7 +179,7 @@ main {
 	text-align: left;
 }
   
-  @keyframes animate{
+@keyframes animate{
 	0%{
 	  background-position: left 0px top 80px;
 	}
@@ -191,7 +192,7 @@ main {
 	100%{
 	  background-position: left 2400px top 80px;
 	}
-  }
+}
 
 
 @media screen and (max-width: 600px) {
@@ -227,14 +228,6 @@ box-shadow:  33px 33px 66px #8b8b8b,
 .bottom {
     font-size: 26px;
 }
-
-h1 {
-    padding-top: 10px;
-    font-size: 60px;
-    color: #033E8C;
-	/* font-family: 'Volya-Regular'; */
-}
-
 
 .choto {
     display: flex;
@@ -1839,7 +1832,7 @@ h2 {font-size: 35px;}
 	display: block;
 	z-index: 4;
 }
-.ship{
+.ship {
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -1946,12 +1939,9 @@ h2 {font-size: 35px;}
 	transform: scale(0.80);
 	z-index: 2;
 }
-/* ENDBLOCK */
 
 footer {
 	width:100%;
-	/* position:fixed;
-	bottom:0px */
 	box-sizing: border-box;
 	background-color: var(--water-color);
   }
@@ -1964,10 +1954,6 @@ footer {
   }
   svg {
 	width:100%;
-  }
-  .arrow {
-	stroke-width: .3px;
-	stroke:yellow;
   }
   .topball {
 	animation: ball 1.5s ease-in-out;
@@ -2015,7 +2001,7 @@ footer {
 	animation-duration: 7s;
 	opacity:.3;
   }
-  @keyframes drop {
+@keyframes drop {
 	0% {
 	  transform: translateY(80%); 
 	  opacity:.6; 
@@ -2033,7 +2019,7 @@ footer {
 	  stroke-width:0.2;
 	  opacity:0; 
 	}
-  }
+}
   @keyframes wave {
 	to {transform: translateX(-100%);}
   }
@@ -2075,20 +2061,4 @@ footer {
 	.section-up div:not(.title) {
 		display: none;
 	}
-}
-
-/* @media (prefers-color-scheme: dark) { */
-	body {
-		background-color: #fff;
-	}
-	main {
-		background-color: #fff;
-	}
-	.title h1 {
-		color: rgb(0 0 0 / 49%);
-	}
-/* } */
-
-.ship-wrapper {
-	background-color: #fff;
 }
