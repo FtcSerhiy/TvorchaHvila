@@ -8,6 +8,11 @@
 	src: url('./fonts/FixelText-Medium.woff2');
 }
 
+:root {
+	--water-color: #0c80c4;
+	--post-color: #e39690;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -76,7 +81,7 @@ main {
 	left: 40%;
 }
 .information, .group-info {
-	background-color: #0c80c4;
+	background-color: var(--water-color);
 }
 
 .group-info h2 {
@@ -130,7 +135,7 @@ main {
 	}
   }
 .we {
-	background-color: #0c80c4;
+	background-color: var(--water-color);
 }
 
 .we h1 {
@@ -161,7 +166,6 @@ main {
 	background-repeat: repeat-x;
 	-webkit-background-clip: text;
 	animation: animate 15s linear infinite;
-  
   }
 
 .title span {
@@ -170,6 +174,7 @@ main {
 	display: block;
 	color: rgb(0 0 0 / 49%);
 	font-size: 18px;
+	text-align: left;
 }
   
   @keyframes animate{
@@ -257,7 +262,7 @@ section.post .post-text {
     max-width: 800px;
     display: block;
     border-radius: 5px;
-	background: #e39690
+	background: var(--post-color)
 	;
 	color: #fff;
 	margin: 8px;
@@ -274,7 +279,7 @@ h2 {font-size: 35px;}
 }
 
 .profile {
-	background: #e39690;
+	background: var(--post-color);
 	border-radius: 5px;
 	margin: 10px;
 	padding: 20px;
@@ -1120,7 +1125,7 @@ h2 {font-size: 35px;}
 	display: block;
 	z-index: 6;
 	border-top: 2px solid #030308;
-	background-color: #0c80c4;
+	background-color: var(--water-color);
 }
 .water-wrapper{
 	position: absolute;
@@ -1167,7 +1172,7 @@ h2 {font-size: 35px;}
 	width: 77px;
 	display: block;
 	z-index: 6;
-	background-color: #0c80c4;
+	background-color: var(--water-color);
 }
 .water.snd{
 	left: 77px;
@@ -1706,7 +1711,7 @@ h2 {font-size: 35px;}
 	width: 116px;
 	display: block;
 	z-index: 1;
-	background-color: #0c80c4;
+	background-color: var(--water-color);
 }
 .water-big span:nth-child(2){
 	left: -2px;
@@ -1947,7 +1952,7 @@ footer {
 	/* position:fixed;
 	bottom:0px */
 	box-sizing: border-box;
-	background-color: #0c80c4;
+	background-color: var(--water-color);
   }
   footer div {
 	background-color:#4478e3;
